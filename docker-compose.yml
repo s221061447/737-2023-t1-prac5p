@@ -3,6 +3,7 @@ services:
   app:
     build: .
     image: pauljose97/737-2023-t1-prac5p
+    container_name: 737-2023-t1-prac5p
     ports:
       - "8080:3030"
     volumes:
